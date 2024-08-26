@@ -1,0 +1,218 @@
+/* CSS for header and logo */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00); /* Gradient background */
+    color: white;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px; /* Adjust logo size as needed */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Increased gap for better spacing */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Change link color to white for better contrast */
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Make font bold */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 15px; /* Increased padding for better spacing */
+    background: linear-gradient(45deg, #00bcd4, #8bc34a); /* Gradient background */
+    color: white;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Make font bold */
+}
+/* CSS for product details page */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00); /* Gradient background */
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Increased gap for better spacing */
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Change link color to white for better contrast */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Make font bold */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling for product details */
+.product-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff3e0; /* Light background for the product details */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details h2 {
+    margin: 20px 0;
+    color: #ff5722; /* Product name color */
+}
+
+.product-details p {
+    margin: 10px 0;
+    color: #757575; /* Description and price color */
+}
+
+.product-details button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.product-details button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(45deg, #00bcd4, #8bc34a); /* Gradient background */
+    color: white;
+    font-size: 18px; /* Increased font size */
+    font-weight: bold; /* Make font bold */
+}
+/* Admin Panel Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #4a90e2; /* Light blue background */
+    color: white;
+}
+
+header .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #dce775; /* Light green color on hover */
+}
+
+.admin-dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.admin-dashboard h2 {
+    margin-top: 0;
+    color: #4a90e2; /* Light blue color for headings */
+}
+
+.admin-links a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #4a90e2; /* Light blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-links a:hover {
+    text-decoration: underline;
+    color: #dce775; /* Light green color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333; /* Dark background color */
+    color: white;
+    font-size: 16px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Insert Product</title>
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <a href="admin_view_products.php">View Products</a>
+            <a href="admin_insert_product.html">Insert Product</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-form">
+            <h2>Insert New Product</h2>
+            <form action="insert_product.php" method="post" enctype="multipart/form-data">
+                <label for="name">Product Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea><br>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" step="0.01" required><br>
+
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" accept="image/*"><br>
+
+                <input type="submit" value="Add Product">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John/Justin-Webstore</p>
+    </footer>
+</body>
+</html>
